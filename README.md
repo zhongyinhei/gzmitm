@@ -4,3 +4,4 @@ BROKER_URL = 'amqp://cic_admin:JYcxys@3030@{}:{}/yct_gz'.format(RABBITMQ_HOST,RA
 
 yct_gz/to_create
 
+docker run --name gz_p_w -p 7777:8080 daocloud.io/zhongyinhei/mitm:master-5dd96d6
